@@ -13,8 +13,8 @@
 # Print out the answer to the terminal.
 
 #USEFUL THINGS TO KNOW 
-#float() converts value into a decimal number`                                                                                                                              `
-#input("")
+#float() converts value into a decimal number                                                                                                                              `
+#input("What is your age? ") prompts the user this question, and it allows the user to type something in the terminal as the input
 
 # Calculator code goes here: 
 
