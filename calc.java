@@ -17,14 +17,19 @@ import java.util.Scanner;
 
 public class calc {
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
 
+        //Set up variables
+        Scanner console = new Scanner(System.in);
+        double num1; 
+        double num2;
+        int operator;
+        
         // Prompt user to enter two numbers
         System.out.print("Enter the first number: ");
-        double num1 = console.nextDouble();
+        num1 = console.nextDouble(); // Assign a possible decimal number to num1
 
         System.out.print("Enter the second number: ");
-        double num2 = console.nextDouble();
+        num2 = console.nextDouble(); // Assign a possible decimal number to num1
 
         // Display operator options
         System.out.println("Choose an operation:");
@@ -35,7 +40,7 @@ public class calc {
 
         // Get the user's choice of operation
         System.out.print("Enter the number of the operation: ");
-        int operator = console.nextInt();
+        operator = console.nextInt();
 
         // Perform the operation based on the user's choice
         if (operator == 1) {
