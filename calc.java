@@ -9,11 +9,7 @@
 // 4 (Division) 
 
 // Use if else statements to decide which operator to use. 
-
 // Print out the answer to the terminal.
-
-// USEFUL THINGS TO KNOW 
-// float() converts value into a decimal number    
 
 // Calculator code goes here:
 
